@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do Web App</title>
+    <link rel="stylesheet" href="beauty.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="icon"
+      href="https://www.clipartmax.com/png/middle/468-4684751_calendar-cartoon-icon-png.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <h1 style="color: white; text-align: center">
+      To-Do Web App
+    </h1>
+    <div class="wrap">
+      <header>To Dos...</header>
+      <div class="inputArea">
+        <input type="text" placeholder="What's to be added?" />
+        <button><i class="fa fa-plus"></i></button>
+      </div>
+
+      <ul class="todoList"></ul>
+      <div class="footer">
+        <span>You have <span class="pendingTasks" style="color: rgb(0, 3, 197); font-weight: bolder;"></span> pending tasks</span>
+        <button>Delete All</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
